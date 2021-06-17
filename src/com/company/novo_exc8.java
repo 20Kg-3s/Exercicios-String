@@ -24,6 +24,6 @@ public class novo_exc8 {
             System.out.println("É um palíndromo.");
         }else {
             System.out.println("Não é um palíndromo");
-        }//metodo que compara se tem o mesmo conteúdo e retorna se é ou não um palíndromo.
+        }//metodo que compara se tem o mesmo conteúdo e retorna se é ou não um palíndromo..
     }
 }

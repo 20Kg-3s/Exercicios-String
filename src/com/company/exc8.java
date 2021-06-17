@@ -14,11 +14,11 @@ public class exc8 {
         nome.getChars(0,nome.length(),letrasDoNome,0);
         char[] inverso = new char[letrasDoNome.length];
 
-        for (int i = letrasDoNome.length; i > 0;i--){
-            for (int j=0;j< letrasDoNome.length;j++){
-                inverso[j] = inverso[i - 1];
+        for (int i = letrasDoNome.length - 1; i > 0;i--){
+            for (int j=0;j< letrasDoNome.length - 1;j++){
+                inverso[j] = letrasDoNome[i];
             }
-            //System.out.print(inverso[i - 1]);
+            System.out.print(inverso[i - 1]);
         }
 
         String invertida = String.copyValueOf(inverso);
