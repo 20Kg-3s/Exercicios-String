@@ -9,7 +9,6 @@ public class exc6 {
         String data = sc.nextLine();
         String[] dataDesmontada = data.split("/");
         System.out.printf("Você nasceu em %s de %s de %s.",dataDesmontada[0],definirMes(dataDesmontada[1]),dataDesmontada[2]);
-
     }
     public static String definirMes(String mes){
         switch (mes){

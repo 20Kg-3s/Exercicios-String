@@ -10,7 +10,6 @@ public class exc9 {
         String []cpfQuebrado = cpf.split("");
         boolean alavanca = true;
 
-
         while(alavanca){
             if (cpfQuebrado[3].equals(".")&&cpfQuebrado[7].equals(".")&&cpfQuebrado[11].equals("-")){
                 System.out.println("CPF registrado com Sucesso!!");
@@ -21,14 +20,7 @@ public class exc9 {
                 cpfQuebrado = cpf.split("");
 
             }
-
         }
-
-
-
-
-
-
 
     }
 }
